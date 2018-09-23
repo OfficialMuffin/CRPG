@@ -12,10 +12,10 @@ int main()
     int char_age;
 
     printf("*You wake up in the middle of a deep forest, surrounded with small creatures that can talk your language* \n");
-    Sleep(3000);
+    Sleep(5000);
     printf("*One of them approaches you...* \n");
 
-    Sleep(2000);
+    Sleep(3000);
 
     printf("Welcome stranger! What might your name be? \n");
     scanf("%s", &char_name);
@@ -32,10 +32,13 @@ int main()
 
     switch (input) {
     case 1 :
-        printf("Glad you asked! We are in the woods, what more could you ask for :)");
+        printf("Glad you asked! We are in the woods, what more could you ask for :) \n");
+        Sleep(2000);
+        printf("*The creature laughs* Just joking! We are in the south-east of Woodheath, around three miles from the city centre.\n");
         break;
     case 2 :
-        printf("Really now? Because you look like you've had a nasty fall.");
+        printf("Really now? Because you look like you've had a nasty fall.\n");
+        Sleep(2000);
         break;
     }
 
