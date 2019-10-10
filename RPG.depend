@@ -4,3 +4,11 @@
 	<stdlib.h>
 	<windows.h>
 
+1570744347 source:c:\users\whela\documents\github\crpg\main.c
+	<stdio.h>
+	<stdlib.h>
+	<windows.h>
+	"include.h"
+
+1570743974 c:\users\whela\documents\github\crpg\include.h
+

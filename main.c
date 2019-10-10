@@ -1,8 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>
-#define WELCOME_MSG "WELCOME TO OFFICIALMUFFIN's RPG \n"
-#define RECIEVED_ITEM "***YOU HAVE RECIEVED AN ITEM!***\n"
+#include "include.h"
 
 void rand_items() {
 
